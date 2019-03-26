@@ -1,0 +1,148 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.navbar {
+	position: fixed;
+	width: 100%;
+	display: flex;
+	justify-content: space-between
+}
+
+.logo, .navlist, .navbuttons {
+	margin: 3em;
+	display: flex;
+}
+
+
+.owl {
+	border: solid;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+}
+
+h3 {
+	font-size: 23px;
+}
+h6 {
+	font-size: 11px;
+}
+
+.navlist {
+	justify-content: space-between;
+	align-items: center;
+	width: 55%;
+	font-variant-caps: all-small-caps;
+	font-weight: bold;
+}
+
+.navbuttons {
+	justify-content: space-evenly;
+	width: 15%;
+}
+
+
+
+.subscribe {
+	background-color: #fff;
+	padding: 0px 15px;
+	border-radius: 30px;
+	border: 1px solid;
+	font-variant-caps: all-small-caps;
+	font-weight: bold;
+	font-size: 13px;
+	height: 35px;
+	display: flex;
+	align-items: center;
+}
+
+.invision {
+	background-color: #111;
+	font-family: cursive;
+	color: #fff;
+	font-weight: bolder;
+	font-size: 16px;
+	width: 35px;
+	height: 35px;
+}
+
+.hero {
+	background-color: #E8EDFB;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	padding-top: 80px;
+}
+
+.hero-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.hero-owl {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 5px solid;
+	margin: 10px;
+}
+
+.hero-title{
+	font-size: 4em;
+	display: flex;
+	font-weight: 700;
+	padding: 10px;
+}
+
+.hero-para {
+	display: flex;
+	width: 40%;
+	padding: 10px;
+	line-height: 2em;
+}
+
+.hero-button {
+	background-color: #F80052;
+	color: #fff;
+	height: 50px;
+	width: 175px;
+	border-radius: 30px;
+	font-variant-caps: all-small-caps;
+	font-size: 15px;
+	margin: 10px;
+}
+
+.scroll-line {
+	width: 0;
+	height: 50px;
+	border: 0.5px solid grey;
+	margin: 15px;
+}
+
+.social-buttons {
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	display: flex;
+	flex-direction: column;
+}
+.social-buttons>button {
+	height: 40px;
+	width: 40px;
+	background-color: #E8EDFB;
+	margin: 5px;
+	border-radius: 50%;
+	border: 1px solid black;
+	font-weight: bolder;
+}
+
+.books {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
