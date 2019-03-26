@@ -176,3 +176,54 @@ p {
 .books-para {
 	width: 40%;
 }
+
+.eds {
+	display: flex;
+	height: 100vh;	
+}
+
+.graphic{
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	margin-bottom: 80px;
+}
+.runner{
+	width: 60%;
+	height: 70%;
+}
+
+.info-text{
+	width: 35%;
+	padding: 20px 100px;
+	margin-right: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+.index {
+	font-variant-caps: all-small-caps;
+}
+
+h2 {
+	font-size: 55px;
+	font-weight: 900;
+	margin: 20px 0;
+}
+
+.info-para {
+	text-align: left;
+	margin: 20px 0;
+}
+
+.read {
+	background-color: #F80052;
+	color: #fff;
+	height: 50px;
+	width: 175px;
+	border-radius: 30px;
+	font-variant-caps: all-small-caps;
+	font-size: 15px;
+	margin: 10px;
+}
