@@ -98,11 +98,15 @@ h6 {
 	padding: 10px;
 }
 
+p {
+	line-height: 2em;
+	text-align: center;
+}
 .hero-para {
 	display: flex;
 	width: 40%;
 	padding: 10px;
-	line-height: 2em;
+	
 }
 
 .hero-button {
@@ -145,4 +149,30 @@ h6 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+.little-books{
+	font-variant-caps: all-petite-caps;
+	font-weight: bold;
+	margin-top: 100px;
+}
+.bigb{
+	font-size: 125px;
+}
+
+.books-text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.books-title {
+	font-size: 2em;
+	margin-bottom: 50px;
+}
+
+.books-para {
+	width: 40%;
 }
